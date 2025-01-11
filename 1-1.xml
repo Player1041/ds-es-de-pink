@@ -3,6 +3,25 @@
        
     </variables>
 
+    <fontSize name="medium">
+    <variables>
+       <helpFont>0.025</helpFont>
+       <gridFont>0.025</gridFont>
+       <metaFont>0.04</metaFont>
+       <descFont>0.045</descFont>
+       <textlist>0.045</textlist>
+    </variables>
+    </fontSize>
+<fontSize name="large">
+    <variables>
+       <helpFont>0.035</helpFont>
+       <gridFont>0.035</gridFont>
+       <metaFont>0.0525</metaFont>
+       <descFont>0.055</descFont>
+       <textlist>0.05</textlist>
+    </variables>
+    </fontSize>
+
  <view name="system, gamelist">
         <image name="back3">
             <pos>0.5 0.5</pos>
@@ -37,7 +56,7 @@
             <pos>0.5 0.975</pos>
             <origin>0.5 0.5</origin>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.035</fontSize>
+            <fontSize>${helpFont}</fontSize>
             <textColor>${textColor}</textColor>
             <iconColor>${textColor}</iconColor>
         </helpsystem>
@@ -60,7 +79,7 @@
             <selectorColor>${selectorColor}</selectorColor>
             <selectorRelativeScale>1.1</selectorRelativeScale>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${gridFont}</fontSize>
             <textColor>${textColor}</textColor>
         </grid>
       <image name="logo1">
@@ -159,7 +178,7 @@
             <size>0.26 0.08</size>
             <systemdata>gamecountGames</systemdata>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${metaFont}</fontSize>
             <lineSpacing>0.95</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -170,7 +189,7 @@
             <size>0.26 0.08</size>
             <systemdata>gamecountFavorites</systemdata>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${metaFont}</fontSize>
             <lineSpacing>0.95</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -216,7 +235,7 @@
             <selectorColor>${selectorColor}</selectorColor>
             <selectorRelativeScale>1.1</selectorRelativeScale>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${gridFont}</fontSize>
             <textColor>${textColor}</textColor>
         </grid>
 
@@ -326,7 +345,7 @@
             <pos>0.71 0.51</pos>
             <size>0.18 0.08</size>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${metaFont}</fontSize>
             <lineSpacing>0.975</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -337,7 +356,7 @@
             <pos>0.8 0.61</pos>
             <size>0.08 0.08</size>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${metaFont}</fontSize>
             <lineSpacing>0.975</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -345,11 +364,13 @@
         </text>
         <text name="dev">
             <metadata>developer</metadata>
+            <container>true</container>
+            <containerType>horizontal</containerType>
             <pos>0.715 0.41</pos>
             <size>0.17 0.08</size>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <fontSize>${metaFont}</fontSize>
+            <lineSpacing>0.8</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <color>${textColor}</color>
@@ -385,7 +406,7 @@
                 <selectedItemOffset>0 0.3</selectedItemOffset>
                 <maxItemCount>4.</maxItemCount>
                 <unfocusedItemOpacity>.5</unfocusedItemOpacity>
-                <fontSize>0.025</fontSize>
+                <fontSize>${gridFont}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>1.1</lineSpacing>
                 <itemTransitions>instant</itemTransitions>
@@ -604,11 +625,14 @@
         </image>
         <text name="name">
             <metadata>name</metadata>
+            <container>true</container>
+            <containerType>horizontal</containerType>
             <pos>0.115 0.3125</pos>
-            <size>0.78 0.08</size>
+            <size>0.77 0.08</size>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.04</fontSize>
+            <fontSize>${metaFont}</fontSize>
             <lineSpacing>0.975</lineSpacing>
+            <backgroundMargins>0.0 0</backgroundMargins>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <color>${textColor}</color>
@@ -618,7 +642,7 @@
             <pos>0.2 0.61</pos>
             <size>0.08 0.08</size>
             <fontPath>./ds.ttf</fontPath>
-            <fontSize>0.06</fontSize>
+            <fontSize>${metaFont}</fontSize>
             <lineSpacing>0.975</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -658,44 +682,61 @@
         <itemScale>1</itemScale>
         <imageType>none</imageType>
         <selectedItemMargins>0 0.105</selectedItemMargins>
+        <selectedItemOffset>0 0</selectedItemOffset>
         <itemHorizontalAlignment>left</itemHorizontalAlignment>
         <itemVerticalAlignment>top</itemVerticalAlignment>
         <verticalOffset>0.06</verticalOffset>
         <maxItemCount>8</maxItemCount>
         <fontPath>./ds.ttf</fontPath>
-        <fontSize>0.0525</fontSize>
+        <fontSize>${textlist}</fontSize>
         <lineSpacing>0.7</lineSpacing>
         <systemNameSuffix>false</systemNameSuffix>
         <itemTransitions>instant</itemTransitions>
         <color>00000000</color>
         
         <textColor>${textColor}</textColor>
+        <zIndex>7</zIndex>
     </carousel>
     
          <image name="text boxC1">
-            <pos>0.1175 0.605</pos>
-            <size>0.16 0.0825</size>
+            <pos>0.31 0.605</pos>
+            <size>0.18 0.0825</size>
             <path>./space.webp</path>
             <color>${tile1}</color>
-            <zIndex>3</zIndex>
+            <zIndex>13</zIndex>
         </image>
         <image name="text boxC2">
-            <pos>0.1175 0.605</pos>
-            <size>0.16 0.0825</size>
+            <pos>0.31 0.605</pos>
+            <size>0.18 0.0825</size>
             <path>./tileback.svg</path>
             <color>${tile2}</color>
-            <zIndex>4</zIndex>
+            <zIndex>14</zIndex>
         </image>
         <image name="text boxC3">
-            <pos>0.1175 0.605</pos>
-            <size>0.16 0.0825</size>
+            <pos>0.31 0.605</pos>
+            <size>0.18 0.0825</size>
             <path>./tiled.svg</path>
             <color>${tile3}</color>
-            <zIndex>5</zIndex>
+            <zIndex>15</zIndex>
         </image>
+         <text name="name">
+            <metadata>name</metadata>
+            <pos>0.31 0.505</pos>
+            <size>0.575 0.1</size>
+            <container>false</container>
+            <containerType>horizontal</containerType>
+            <systemNameSuffix>false</systemNameSuffix>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${textlist}</fontSize>
+            <lineSpacing>0.975</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${textColor}</color>
+            <zIndex>15</zIndex>
+        </text>
          <text name="player">
             <metadata>players</metadata>
-            <pos>0.19 0.605</pos>
+            <pos>0.39 0.605</pos>
             <size>0.08 0.08</size>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.06</fontSize>
@@ -703,20 +744,22 @@
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <color>${textColor}</color>
+            <zIndex>15</zIndex>
         </text>
          <image name="playericons">
-            <pos>0.145 0.605</pos>
+            <pos>0.345 0.605</pos>
             <size>0.05 0.08</size>
             <path>./player.svg</path>
             <color>${textColor}</color>
-            <zIndex>6</zIndex>
+            <zIndex>16</zIndex>
         </image>
          <badges name="all">
-            <pos>0.3 0.605</pos>
+            <pos>0.515 0.605</pos>
             <size>0.35 0.1</size>
             <direction>row</direction>
             <lines>1</lines>
             <itemsPerLine>4</itemsPerLine>
+            <zIndex>16</zIndex>
             <slots>controller, completed, favorite, manual</slots>
             <controllerPos>0.5 0.5</controllerPos>
             <controllerSize>0.95</controllerSize><customBadgeIcon badge="manual">./assets/${colorscheme}/manual.svg</customBadgeIcon>
@@ -726,9 +769,10 @@
         </badges>
          <image name="cover">
             <imageType>cover</imageType>
-            <pos>0.88 .69</pos>
-            <origin>1 1</origin>
-            <maxSize>0.2 0.1</maxSize>
+            <pos>0.205 .60</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.18 0.18</maxSize>
+            <zIndex>16</zIndex>
         </image>
 
         <image name="select box1">
@@ -736,21 +780,21 @@
             <size>0.78 0.19</size>
             <path>./space.webp</path>
             <color>${tile1}</color>
-            <zIndex>3</zIndex>
+            <zIndex>8</zIndex>
         </image>
         <image name="select box2">
             <pos>0.11 0.505</pos>
             <size>0.78 0.19</size>
             <path>./tileback.svg</path>
             <color>${tile2}</color>
-            <zIndex>4</zIndex>
+            <zIndex>9</zIndex>
         </image>
         <image name="select box3">
             <pos>0.11 0.505</pos>
             <size>0.78 0.19</size>
             <path>./tilec.svg</path>
             <color>${tile3}</color>
-            <zIndex>5</zIndex>
+            <zIndex>10</zIndex>
         </image>
          <image name="carbox1">
             <pos>0.11 0.41</pos>
