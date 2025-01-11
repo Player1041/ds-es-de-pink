@@ -7,7 +7,6 @@
    <themeName>DS</themeName>
    <fontSize>medium</fontSize>
    <fontSize>large</fontSize>
-   <fontSize>x-large</fontSize>
     <variant name="XL">
         <label>Grid</label>
         <selectable>true</selectable>

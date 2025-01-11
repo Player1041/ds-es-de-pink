@@ -256,7 +256,7 @@
         <text name="date">
             <pos>0.455 0.61</pos>
             <size>0.2075 0.08</size>
-            <text>Released: ${systemReleaseYear}</text>
+            <text>${systemReleaseYear}</text>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
             <lineSpacing>0.95</lineSpacing>
@@ -269,7 +269,7 @@
         <text name="man">
             <pos>0.68 0.61</pos>
             <size>0.2075 0.08</size>
-            <text>by ${systemManufacturer}</text>
+            <text>${systemManufacturer}</text>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
             <lineSpacing>0.95</lineSpacing>
