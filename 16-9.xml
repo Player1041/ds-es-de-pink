@@ -6,6 +6,7 @@
        <metaFont>0.04</metaFont>
        <descFont>0.045</descFont>
        <textlist>0.07</textlist>
+       <lineSpacing>0.85</lineSpacing>
     </variables>
     </fontSize>
 <fontSize name="large">
@@ -15,6 +16,7 @@
        <metaFont>0.0525</metaFont>
        <descFont>0.055</descFont>
        <textlist>0.08</textlist>
+       <lineSpacing>0.95</lineSpacing>
     </variables>
     </fontSize>
 
@@ -136,7 +138,7 @@
             <text>${systemDescription}</text>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
-            <lineSpacing>0.85</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <container>true</container>
             <color>${textColor}</color>
             
@@ -233,7 +235,7 @@
             <systemdata>gamecountGames</systemdata>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <letterCase>capitalize</letterCase>
@@ -246,7 +248,7 @@
             <systemdata>gamecountFavorites</systemdata>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <letterCase>capitalize</letterCase>
@@ -259,7 +261,7 @@
             <text>${systemReleaseYear}</text>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <letterCase>capitalize</letterCase>
@@ -272,7 +274,7 @@
             <text>${systemManufacturer}</text>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <letterCase>capitalize</letterCase>
@@ -313,7 +315,7 @@
             <size>0.3075 0.36</size>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${descFont}</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <color>${textColor}</color>
         </text>
         <image name="text boxA1">
@@ -471,7 +473,7 @@
             <size>0.105 0.08</size>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${metaFont}</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <color>${textColor}</color>
@@ -482,7 +484,7 @@
             <size>0.08 0.08</size>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${metaFont}</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <defaultValue>:space:</defaultValue>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -494,7 +496,7 @@
             <size>0.2175 0.08</size>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${metaFont}</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <color>${textColor}</color>
@@ -605,7 +607,7 @@
             <systemNameSuffix>false</systemNameSuffix>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${textlist}</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <defaultValue>:space:</defaultValue>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>left</horizontalAlignment>
@@ -618,7 +620,7 @@
             <size>0.08 0.08</size>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.06</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <defaultValue>:space:</defaultValue>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -1034,7 +1036,7 @@
             <metadata>name</metadata>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${descFont}</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <systemNameSuffix>false</systemNameSuffix>
             <container>true</container>
             <color>${textColor}</color>
@@ -1045,7 +1047,7 @@
             <metadata>description</metadata>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${descFont}</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <container>true</container>
             <color>${textColor}</color>
         </text>
@@ -1079,7 +1081,7 @@
             <defaultValue>:space:</defaultValue>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.06</fontSize>
-            <lineSpacing>0.975</lineSpacing>
+            <lineSpacing>${lineSpacing}</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
             <color>${textColor}</color>
