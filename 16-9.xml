@@ -136,7 +136,7 @@
             <text>${systemDescription}</text>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>0.04</fontSize>
-            <lineSpacing>0.95</lineSpacing>
+            <lineSpacing>0.85</lineSpacing>
             <container>true</container>
             <color>${textColor}</color>
             
@@ -1028,9 +1028,20 @@
             <color>${tile3}</color>
             <zIndex>5</zIndex>
         </image>
-        <text name="desc">
+        <text name="name">
             <pos>0.63 0.42</pos>
-            <size>0.31 0.46</size>
+            <size>0.31 0.1</size>
+            <metadata>name</metadata>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${descFont}</fontSize>
+            <lineSpacing>0.95</lineSpacing>
+            <systemNameSuffix>false</systemNameSuffix>
+            <container>true</container>
+            <color>${textColor}</color>
+        </text>
+        <text name="desc">
+            <pos>0.63 0.52</pos>
+            <size>0.31 0.36</size>
             <metadata>description</metadata>
             <fontPath>./ds.ttf</fontPath>
             <fontSize>${descFont}</fontSize>

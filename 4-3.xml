@@ -616,7 +616,21 @@
             <maxSize>0.645 0.46</maxSize>
             <pillarboxes>false</pillarboxes>
         </video>
-
+        <text name="name">
+            <pos>0.616 0.65</pos>
+            <size>0.2 0.2</size>
+            <origin>0.5 0.5</origin>
+            <metadata>name</metadata>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${descFont}</fontSize>
+            <lineSpacing>0.95</lineSpacing>
+            <container>false</container>
+            
+            <systemNameSuffix>false</systemNameSuffix>
+            <color>${textColor}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>4</zIndex>
+        </text>
 
 
         <image name="text boxC1">
