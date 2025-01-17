@@ -67,6 +67,21 @@
     </variables>
     </colorScheme>
 
+    <colorScheme name="snes">
+    <variables>
+    <colorscheme>snes</colorscheme>
+    <back1>4f43ae</back1>
+    <back3>b5b6e4</back3>
+    <back2>cec9cc</back2>
+    <tile1>cec9cc</tile1>
+    <tile2>b5b6e4</tile2>
+    <tile3>211a21</tile3>
+    <textColor>0d0c0c</textColor>
+    <logoColor>0d0c0c</logoColor>
+    <selectorColor>4f43ae</selectorColor>
+    </variables>
+    </colorScheme>
+
      <colorScheme name="fam">
     <variables>
     <colorscheme>fam</colorscheme>
