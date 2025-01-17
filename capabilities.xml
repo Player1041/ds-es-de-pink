@@ -29,6 +29,9 @@
     <colorScheme name="nes">
         <label>NES</label>
     </colorScheme>
+    <colorScheme name="snes">
+        <label>SNES</label>
+    </colorScheme>
 <colorScheme name="fam">
         <label>Famicom</label>
     </colorScheme>
