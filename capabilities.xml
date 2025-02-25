@@ -44,4 +44,7 @@
     <colorScheme name="blue">
         <label>Blueprint</label>
     </colorScheme>
+    <colorScheme name="pink">
+        <label>Pink</label>
+    </colorScheme>
 </themeCapabilities>

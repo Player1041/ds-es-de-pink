@@ -111,6 +111,7 @@
     <selectorColor>d4af37</selectorColor>
     </variables>
     </colorScheme>
+    
     <colorScheme name="oled">
     <variables>
     <colorscheme>oled</colorscheme>
@@ -135,6 +136,21 @@
     <tile1>4A6DE5</tile1>
     <tile2>4A5DE5</tile2>
     <tile3>CED8F7</tile3>
+    <textColor>CED8F7</textColor>
+    <logoColor>CED8F7</logoColor>
+    <selectorColor>CED8F7</selectorColor>
+    </variables>
+    </colorScheme>
+
+    <colorScheme name="pink">
+    <variables>
+    <colorscheme>pink</colorscheme>
+    <back1>CED8F7</back1>
+    <back2>C37DC7</back2>
+    <back3>B746BC</back3>
+    <tile1>C37DC7</tile1>
+    <tile2>C37DC7</tile2>
+    <tile3>DAEDF9</tile3>
     <textColor>CED8F7</textColor>
     <logoColor>CED8F7</logoColor>
     <selectorColor>CED8F7</selectorColor>
